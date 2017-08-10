@@ -1,0 +1,106 @@
+:root {
+    
+    --mainFontSize:16px;
+}
+
+body {
+    
+    background-color: black;
+}
+
+div {
+        
+    display:block;
+    float: left;
+    height:40%;
+    width:33.3%;
+    margin: auto;
+}
+
+img {
+       
+    height:60%;
+    width: 80%;
+    display:block;
+    margin:auto;
+    border-radius: 25px;
+     }
+
+h1 {
+    
+    color:lightgray;
+    font-size: calc(var(--mainFontSize)*2);
+    float: top;
+    text-align: center;
+}
+
+blockquote {
+    
+    display:block;
+    color: lightgray;
+    text-align: center;
+    height: 200px;
+}
+
+.last {
+
+    height:50%;
+    width:100%;
+}
+
+.ilast {
+
+    height: 85%;
+    width: 85%;
+    border-radius: 25px;
+}
+
+.main {
+    
+    height:100;
+    width: 100%;
+    position: center;
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+     
+    img{
+        
+        width:100%;
+     }
+
+     div{
+        
+        display:block;
+        margin: auto;
+        width:100%;
+     }
+    
+     .ilast{
+        
+        width:100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    img{
+        
+        width:90%;
+    }
+
+    div{
+        
+        width:50%;
+    }
+
+    .last{
+        
+        width:50%;
+    }
+
+    .ilast{
+        
+        width:90%;
+    }
+}

@@ -1,0 +1,33 @@
+div{
+    
+    text-align: center;
+    color: lightgray;
+    font: arial;
+}
+
+.row2{
+      
+    margin-top: 5px;
+}
+
+h1 {
+    
+    color:lightgray;
+    size: 16%;
+    float: top;
+    text-align: center;
+}
+
+img{
+    
+    height: 60%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+body{
+    
+    z-index: 1;
+    background-color: black;
+}
+        
