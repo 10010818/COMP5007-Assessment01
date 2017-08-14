@@ -32,6 +32,7 @@ h1 {
     font-size: calc(var(--mainFontSize)*2);
     float: top;
     text-align: center;
+    font-style: italic;
 }
 
 blockquote {
@@ -40,6 +41,7 @@ blockquote {
     color: lightgray;
     text-align: center;
     height: 200px;
+    font-style: italic;
 }
 
 .last {
